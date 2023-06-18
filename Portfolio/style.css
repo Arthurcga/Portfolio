@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor01: #048ABF;
+    --cor02: #0367A6;
+    --cor03: #033E8C;
+    --cor04: #050A26;
+    --cor05: #03020D;
+}
+body{
+    background-image: linear-gradient(to bottom, var(--cor01), var(--cor02), var(--cor03), var(--cor04), var(--cor05));
+    background-attachment: fixed;
+}
+header{
+    background-color: var(--cor01);
+    box-shadow: 1px 1px 2px 0px var(--cor05);
+    padding: 10px;
+    min-height: 150px;
+    
+}
